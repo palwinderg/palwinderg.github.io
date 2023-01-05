@@ -1,0 +1,29 @@
+
+/* CSS code for kelly truck and tires */
+h1 {
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color:rgb(3, 196, 48);
+}
+
+input {
+    float:none;
+    padding: 6px;
+    border: rgb(0,0,0);
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+a {
+    float: left;
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color:rgb(210, 13, 13); 
+}

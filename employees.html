@@ -1,0 +1,36 @@
+
+<!-- This is the code for the employee webpage -->
+
+<!DOCTYPE html>
+
+<!-- Referencing the CSS sheet for the website design -->
+<link rel="stylesheet" href="SLT.css">
+
+<!-- Company name/label on top -->
+<h1>
+    Summit Lake Trucking
+</h1>
+
+<!-- Code for the top navigation bar -->
+<div class="topnav">
+    <a href="SLT.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a class="active" href="employees.html">Employees</a>
+</div>
+
+<script type="text/javascript">
+    function onSubmit() {
+          if (document.getElementById('password').value == 'kellytire') {
+            window.location.href = 'kellytire.html'; 
+        }
+          else{ alert('Please check your passcode and try again');
+        }
+     }
+</script>
+
+<div class="password">
+    <label for="password">Password:</label>
+    <input type="password" class="span7" id="password" name="password">
+    <button class="btn btn-info btn-large span5" id="joe_btn" onclick="onSubmit()">Enter</button>
+</div>
